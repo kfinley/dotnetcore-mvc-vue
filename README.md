@@ -59,7 +59,7 @@ Each View has a script reference to it's corresponding Vue.js bundle in its `@se
 
 Shared Views can take advantage of this approach as well. An example is included with the `Footer.cshtml` View.
 
-One thing to note when using Vue.js on a layout page is that you can not wrap the entire Layout as a Vue.js application. The reason is that any MVC View that renders under `@RenderBody` will include compoenents that are not knowns to the *layout* Vue.js Application. 
+One thing to note when using Vue.js on a layout page is that you can not wrap the entire Layout as a Vue.js application. The reason is that any MVC View that renders under `@RenderBody` will include components that are not knowns to the *layout* Vue.js Application. 
 
 For this reason (and others such as bundle bloat from including Vue in multiple bundles which can't be avoided Single File Components) this approach should **not** be considered a final solution and more of a transition option for migrationg from Razor MVC Views to a pure Vue.js application.
 

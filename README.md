@@ -23,9 +23,9 @@ dotnet run
 ```
 
 ## Details
-The goal of this example is to show one option for how to use Vue.js with existing ASP.NET Core MVC `.cshmtl` Views. This is achieved by using [webpack](https://webpack.js.org) to create javascript bundles for each ASP.NET MVC View that will include Vue.js. 
+The goal of this example is to show one option for using Vue.js with existing ASP.NET Core MVC `.cshmtl` Views. This is achieved by using [webpack](https://webpack.js.org) to create javascript bundles for each ASP.NET MVC View that will include Vue.js.
 
-The project was created from a barebones dotnetcore mvc 5 application (`dotnet new mvc`) and a Vue.js application craeted using the vue-cli (`vue create app`). Webpack has been added and other configurations have been made. 
+The project was created from a barebones dotnetcore mvc 5 application (`dotnet new mvc`) and Vue.js application craeted using the vue-cli (`vue create app`). Webpack has been added and other configurations have been made. 
 
 The project has the following basic structure which should look familiar from Vue.js and ASP.NET MVC apps.
 
